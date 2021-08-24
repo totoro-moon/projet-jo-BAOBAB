@@ -1,0 +1,185 @@
+@font-face {
+  font-family: "Kiona-Regular";
+  src: url(polices/Kiona-Regular.ttf) format("truetype");
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  font-family: 'Kiona-Regular';
+}
+
+body section {
+  border-top: 5px solid #79B02C;
+}
+
+body h2 {
+  color: #226807;
+  font-size: 40px;
+}
+
+/********Zone_1 jo*********/
+.nav-item {
+  padding-left: 20px;
+}
+
+.nav-item a {
+  font-size: 18px;
+}
+
+.nav-item a:hover {
+  border-bottom: 5px solid #79B02C;
+}
+
+.jo .bg {
+  /* hauteur */
+  height: 50vh;
+  /* Center et placer l'image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(images/12.jpg);
+}
+
+.jo .bg #bouton1 {
+  background-color: #79B02C;
+  padding: 2.5%;
+  margin-right: 5%;
+}
+
+.jo .bg #bouton2 {
+  border: 3px solid #ffffff;
+  padding: 2%;
+}
+
+.jo .bg a {
+  text-decoration: none;
+  color: white;
+}
+
+.jo .bg .text {
+  padding-top: 10px;
+}
+
+/*******Zone_2 presentation*******/
+.texte_prestation {
+  background-color: #ffffff;
+}
+
+.texte_prestation p {
+  text-align: justify;
+}
+
+/******* Zone_3 projet********/
+.projet .image2 {
+  height: 50vh;
+  /* Center et placer l'image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(images/17.jpg);
+}
+
+.projet p {
+  border: 3px solid #79B02C;
+  text-align: center;
+}
+
+/**** zone_4 devis****/
+.devis .container {
+  width: 70%;
+  height: 66%;
+  padding: 0;
+  border: 2px solid #79B02C;
+}
+
+.devis .container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.devis .container input[type=text], .devis .container textarea {
+  width: 100%;
+  border-bottom-color: #79B02C;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px 0 10px 10px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  background-color: transparent;
+  font-family: 'Kiona-Regular';
+  font-size: 16px;
+}
+
+.devis .container input[type=submit] {
+  width: 100%;
+  padding: 9px 0 9px 0;
+  border: none;
+  background-color: transparent;
+  color: grey;
+  cursor: pointer;
+}
+
+.devis .container input[type=submit]:hover {
+  background-color: #79B02C;
+}
+
+/*****Zone5 footer***/
+.footer {
+  background-color: #ffffff;
+  text-transform: uppercase;
+  list-style-type: none;
+  color: #ffffff;
+  background-color: #3C3C3C;
+}
+
+.footer .container {
+  background-color: #3C3C3C;
+  padding: 0;
+}
+
+.footer p {
+  font-size: 25px;
+}
+
+.footer li {
+  font-size: 15px;
+}
+
+.footer .contact {
+  background-color: #79B02C;
+}
+
+.footer .contact li {
+  width: 80%;
+}
+
+.footer .plandusite {
+  background-color: #79B02C;
+}
+
+.footer .imgfooter {
+  height: 50vh;
+  /* Center et placer l'image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(images/15.jpg);
+}
+
+.footer #logo {
+  width: 40%;
+}
+
+.footer .copyrigt {
+  font-size: 15px;
+}
+/*# sourceMappingURL=style.css.map */
